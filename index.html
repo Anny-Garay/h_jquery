@@ -1,0 +1,21 @@
+
+<div id ="caja1" style="background-color: rgb(185, 0, 0) ; width:200px; height:200px;"></div>
+<div id ="caja2"></div>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script>
+    $("#caja1").css("background-color", "rgb(169, 242, 255)")
+               .css("width", 400)
+               .css("height", 400)
+
+    $("#caja1").html("<span>Hola</span> que hace");
+    $("span").css("color", "rgb(56, 0, 159)");  
+    
+    
+    $("#caja2").css("background-color", "rgb(238, 255, 86)")
+               .css("width", 120)
+               .css("height", 180)
+               .css("margin",50)
+               .css("border-radius", 25)
+               .css("transition","background-color 5s")
+</script>

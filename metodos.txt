@@ -1,0 +1,8 @@
+.html: agregar texto con html
+.text: agregar texto sin html
+.prepend: anexar antes algo
+.append: anexar despues
+.before: para agregar algo antes del elemento
+.after: para agregar algo despues del elemento
+.keyup: espera que escriba
+.val: sirve para leer un input(?)
